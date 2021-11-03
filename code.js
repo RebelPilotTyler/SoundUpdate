@@ -119,6 +119,6 @@ function sound(srcFile) { //universal play sound function
 }
 function playTheme() { //Plays The Eternal Voyage Main Theme
     console.log("playTheme() function started");
-    //mySound = new sound(""); FIX THIS LINE!!! Filename goes here.
+    mySound = new sound("The Eternal Voyage - Main Theme.mp3");
     mySound.play();
 }
